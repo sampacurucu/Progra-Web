@@ -1,0 +1,148 @@
+/* Estilos CSS */
+
+.texto1 {
+margin-bottom: 300px; /* Margen inferior para separar del siguiente texto */
+}
+
+.texto2 {
+margin-top: 50px; /* Margen superior para separar del texto anterior */
+}
+
+.texto3 {
+    margin-bottom: 95px; /* Margen inferior para separar siguiente texto */
+}
+
+.texto4 {
+    margin-top: 200px; /* Margen superior para separar del texto anterior */
+    }
+
+.texto5 {
+        margin-bottom: 30px; /* Margen inferior para separar siguiente texto */
+    }
+
+.colorFondo{
+    /*color: #db2121; */
+    background-color: #302e2ed6; /* Color de fondo en formato hexadecimal */
+    /*padding: 20px;*/
+    padding-top: 40px; /* Añade espacio de relleno en la parte superior */
+    padding-bottom: 1000px; /* Añade espacio de relleno en la parte inferior */
+    padding-left: 20px; /* Añade espacio de relleno en la parte izquierda */
+    padding-right: 20px; /* Añade espacio de relleno en la parte derecha */
+}
+
+textoLargo {
+    max-width: 50px; /* Establece la longitud máxima del texto en 300 píxeles */
+}
+
+textoCentrado {
+    text-align: center; /* Centra el texto horizontalmente */
+}
+textoDerecha {
+    text-align: right; /*el texto esta alineado a la derecha */
+}
+
+tamanioColor{
+    font-size: 40px; /* Tamaño de fuente  */
+    color: #f6eeee; /* Color del texto */
+}
+
+tamanioColor2{
+    font-size: 20px; /* Tamaño de fuente  */
+    color: #f6eeee; /* Color del texto */
+}
+
+tamanioColor3{
+    font-size: 40px; /* Tamaño de fuente  */
+    color: #030303; /* Color del texto */
+}
+.subrayado {
+    text-decoration: underline;
+    /*position: absolute;
+    left: 5%; */
+}
+
+textoCentradoLargo{
+    max-width: 700px; /* Establece la longitud máxima del texto en 300 píxeles */
+    text-align: center; /* Centra el texto horizontalmente */
+    position: absolute; /* Establece posición absoluta */
+    /*top: 50%; /* Centra verticalmente en la mitad de la página */
+    left: 50%; /* Centra horizontalmente en la mitad de la página */
+    transform: translateX(-50%); /* Centra horizontalmente en sí mismo */
+
+}
+
+textoCentradoLargo2{
+    max-width: 300px; /* Establece la longitud máxima del texto en 300 píxeles */
+    text-align: center; /* Centra el texto horizontalmente */
+    position: absolute; /* Establece posición absoluta */
+    /*top: 50%; /* Centra verticalmente en la mitad de la página */
+    left: 30%; /* Centra horizontalmente en la mitad de la página */
+    transform: translateX(-50%); /* Centra horizontalmente en sí mismo */
+
+}
+
+textoCentradoLargo3{
+    max-width: 300px; /* Establece la longitud máxima del texto en 300 píxeles */
+    text-align: center; /* Centra el texto horizontalmente */
+    position: absolute; /* Establece posición absoluta */
+    /*top: 50%; /* Centra verticalmente en la mitad de la página */
+    left: 70%; /* Centra horizontalmente en la mitad de la página */
+    transform: translateX(-50%); /* Centra horizontalmente en sí mismo */
+
+}
+
+/* Estilo para el cuadro de texto superpuesto */
+.cuadroTexto {
+position: absolute;
+top: 50%; /* Centra verticalmente el cuadro de texto en el 50% del contenedor */
+right: 30; /* Posiciona el cuadro de texto en el lado derecho del contenedor */
+transform: translateY(-50%); /* Mueve el cuadro de texto hacia arriba en un 50% de su altura para centrarlo verticalmente */
+padding: 20px;
+color: #090909;
+background-color: rgba(240, 236, 236, 0.989);
+width: 300px; /* Ancho del cuadro de texto */
+height: 200px; /* Alto del cuadro de texto */
+text-align: center; /* Centro el texto dentro del cuadro de texto */
+}
+
+.cuadroTexto2 {
+    
+    flex: 1; /* Hacemos que los cuadros ocupen el espacio disponible de manera equitativa */        
+    padding: 20px; 
+    /*box-sizing: border-box;*/
+    color: #090909;
+    /*background-color: rgba(240, 236, 236, 0.989);*/
+    margin: 20px; /* Añadimos un margen entre los cuadros de texto */
+    width: 100px; /* Ancho del cuadro de texto */
+    height: 150px; /* Alto del cuadro de texto */
+    border: 1px solid rgb(19, 19, 21); /* Aplica un borde sólido de 1px de ancho de color azul */
+    border-radius: 10px; /* Aplica un borde redondeado de 4px */
+}
+
+.cuadroTexto3 {
+    
+    flex: 1; /* Hacemos que los cuadros ocupen el espacio disponible de manera equitativa */       
+    padding: 20px; 
+    /*box-sizing: border-box;*/
+    color: #090909;
+    background-color: rgba(240, 236, 236, 0.989);
+    margin:20px; /* Añadimos un margen entre los cuadros de texto */
+    width: 800px; /* Ancho del cuadro de texto */
+    height: 800px; /* Alto del cuadro de texto */
+    
+    border: 1px solid rgb(19, 19, 21); /* Aplica un borde sólido de 1px de ancho de color azul */
+    border-radius: 10px; /* Aplica un borde redondeado de 4px */
+    /*text-align: center; /* Centro el texto dentro del cuadro de texto */
+
+}
+
+.contenedor {
+    display: flex; /* Utilizamos flexbox para colocar los cuadros de texto en línea */
+    justify-content: center;
+}
+
+form {
+    width: 300px;
+    margin: 0 auto;
+    
+}

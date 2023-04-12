@@ -1,0 +1,44 @@
+/* Estilo para hacer que la imagen ocupe todo el ancho disponible */
+.dimensionImagen1 {
+    width: 100%; /* Establece el ancho al 100% */
+    max-width: 100%; /* Establece el ancho máximo al 100% */
+    height: auto; /* Establece la altura automáticamente */
+  }
+
+  /* Estilo para el contenedor de la imagen */
+.contenedorImagen {
+    position: relative; /* Establece la posición relativa para poder posicionar el cuadro de texto de forma absoluta */
+    /*display: inline-block; /* Establece el contenedor como un elemento de bloque en línea para que se ajuste al ancho de la imagen */
+
+  }
+
+  .imagenesFila {
+    display: flex; /* Utilizamos flexbox para crear una fila horizontal */
+    justify-content: center;
+  }
+  
+  .imagenesFila img {
+    flex: 1; /* Para que las imágenes ocupen el mismo ancho y se distribuyan equitativamente */
+    margin: 10px; /* Añadimos un margen entre las imágenes */
+    max-width: 20%; /* Para asegurarnos de que las imágenes se ajusten al ancho del contenedor */
+    height: 200; /* Para mantener la proporción de aspecto de las imágenes */
+  }
+
+  .imagenesFila2 {
+    display: flex; /* Utilizamos flexbox para crear una fila horizontal */
+    justify-content: center;
+  }
+
+  .imagenesFila2 img {
+    flex: 1; /* Para que las imágenes ocupen el mismo ancho y se distribuyan equitativamente */
+    margin: 10px; /* Añadimos un margen entre las imágenes */
+    max-width: 30%; /* Para asegurarnos de que las imágenes se ajusten al ancho del contenedor */
+    height: 150; /* Para mantener la proporción de aspecto de las imágenes */
+  }
+
+  .imagen {
+    width: 800px; /* Establecemos un ancho fijo para las imágenes */
+    height: 800px; /* Establecemos una altura fija para las imágenes */
+    /*margin-right: 30px; /* Agregamos un margen a la derecha de la imagen para separarla del cuadro de texto */
+    
+}
